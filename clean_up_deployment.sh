@@ -23,7 +23,7 @@ echo -e  "\n"
 
 echo "******************************************"
 echo "Deleting tiya-image tagged to your docker hub local repository:"
-docker rmi victortreten/repo_test:tiya
+docker rmi odennav/nginx:tiya
 sleep 5
 echo -e  "\n"
 
