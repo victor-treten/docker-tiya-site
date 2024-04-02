@@ -1,6 +1,6 @@
-# Deploying the Tiya golf club website with Docker and Nginx
+# Deploying the Tiya golf club website with Docker
 
-Deployment automated with bash scripts.
+Deployment automated with bash scripts in test enviroment.
 
 ## Overview
 
@@ -9,10 +9,6 @@ This repository includes scripts to push Docker images to your DockerHub reposit
 
 ******************
 ![](https://github.com/odennav/docker-nginx-tiya/blob/main/tiya-shot.PNG) 
-
-## Special Credits
-
-Special thanks to [Templatemo](https://https://www.templatemo.com/page/1) for free CSS templates
 
 ## Getting Started
 
@@ -55,7 +51,7 @@ The provided Vagrant file simplifies VM Management.
 
    ```bash
    sudo apt-get install git
-   git clone https://github.com/odennav/docker-nginx-tiya.git
+   git clone https://github.com/odennav/docker-tiya-site.git
    cd docker-nginx-tiya
    ```
 
