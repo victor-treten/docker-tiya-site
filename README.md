@@ -1,6 +1,6 @@
 # Deploying the Tiya golf club website with Docker
 
-Deployment automated with bash scripts in test enviroment.
+Deployment automated with bash scripts in Test enviroment.
 
 ## Overview
 
@@ -8,7 +8,7 @@ Automate deployment of the Card website with an Nginx server using Docker images
 This repository includes scripts to push Docker images to your DockerHub repository and clean up deployment on local machine(optional).
 
 ******************
-![](https://github.com/odennav/docker-nginx-tiya/blob/main/tiya-shot.PNG) 
+![](https://github.com/odennav/docker-nginx-tiya/blob/main/docs/tiya-shot.PNG) 
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ The provided Vagrant file simplifies VM Management.
    If you intend to use git bash with Windows and not linux VM, install chocolatey [here](https://chocolatey.org/install).
 
    Open powershell terminal and use chocolatey to install git bash .
-   ```bash
+   ```console
    choco install git
    ```
 
@@ -52,7 +52,7 @@ The provided Vagrant file simplifies VM Management.
    ```bash
    sudo apt-get install git
    git clone https://github.com/odennav/docker-tiya-site.git
-   cd docker-nginx-tiya
+   cd docker-tiya-site
    ```
 
 6. **Practice with the Scripts:**
